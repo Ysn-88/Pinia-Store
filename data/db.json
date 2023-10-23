@@ -3,7 +3,7 @@
     {
       "id": 5,
       "title": "Call a friend",
-      "isFav": false
+      "isFav": true
     },
     {
       "id": 6,
@@ -24,6 +24,46 @@
       "title": "hhhh",
       "isFav": true,
       "id": 4547
+    },
+    {
+      "title": "gr",
+      "isFav": true,
+      "id": 7679
+    },
+    {
+      "title": "hgs",
+      "isFav": false,
+      "id": 8405
+    },
+    {
+      "title": "mn,mv.,",
+      "isFav": false,
+      "id": 8974
+    },
+    {
+      "title": "cc",
+      "isFav": true,
+      "id": 5836
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "image": "item1.jpg",
+      "description": "'Product 1",
+      "inStock": 10
+    },
+    {
+      "id": 2,
+      "image": "item2.jpg",
+      "description": "Product 2",
+      "inStock": 5
+    },
+    {
+      "id": 3,
+      "image": "item3.jpg",
+      "description": "Product 3",
+      "inStock": 15
     }
   ]
 }

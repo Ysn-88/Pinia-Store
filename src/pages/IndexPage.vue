@@ -6,7 +6,7 @@
             style="max-width: 600px"
             @submit="handelSubmit"
             >
-            <q-input filled label="i need to ... " v-model="newTask" lazy-rules />
+            <q-input label="i need to ... " v-model="newTask" outlined :dense="dense" />
             <q-btn label="ADD" type="submit" color="primary" class="text-yellow-7 full-width q-mt-md q-py-sm" />
         </q-form>
 
@@ -54,6 +54,7 @@ export default defineComponent({
         const filter = ref("all")
         const newTask = ref("")
 
+
         const handelSubmit = () => {
           if (newTask.value.length > 0) {
             taskStore.addTask({
@@ -68,7 +69,8 @@ export default defineComponent({
             taskStore,
             filter,
             handelSubmit,
-            newTask
+            newTask,
+            dense: ref(false)
         }
     }
 })
