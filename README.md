@@ -32,7 +32,8 @@ quasar build
 ```
 ### Initiate the development server:
 
-bash Copy code quasar dev Open your web browser and navigate to http://localhost:9000 to access the app. and http://localhost:3000/tasks to access the server
+--  ( quasar dev ) Open your web browser and navigate to http://localhost:9000 to access the app.
+--  ( json-server -w ./data/db.json ) to access the server " http://localhost:3000/tasks "
 
 ### Customize the configuration
 See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
