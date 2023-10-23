@@ -42,7 +42,7 @@
 <script>
 import {defineComponent, ref} from 'vue'
 import {useTaskStore} from 'stores/TaskStore'
-import TaskDetails from '../components/TaskDelais.vue'
+import TaskDetails from '../components/TaskDetails.vue'
 
 export default defineComponent({
     components: {

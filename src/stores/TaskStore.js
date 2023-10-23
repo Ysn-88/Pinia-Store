@@ -1,4 +1,6 @@
+
 import { defineStore } from 'pinia';
+
 
 export const useTaskStore = defineStore('taskStore', {
   state: () => ({
@@ -7,7 +9,7 @@ export const useTaskStore = defineStore('taskStore', {
   }),
 
   getters: {
-    // methode bzw getter: Tasks zum filtern (All tasks || fav Tasks)
+    // methode bzw getters [computed propreties ]: Tasks zum filtern (All tasks || fav Tasks)
     favs() {
       return this.tasks.filter(t => t.isFav)
     },

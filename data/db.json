@@ -3,7 +3,7 @@
     {
       "id": 5,
       "title": "Call a friend",
-      "isFav": true
+      "isFav": false
     },
     {
       "id": 6,
@@ -13,7 +13,7 @@
     {
       "id": 7,
       "title": "Plan a vacation",
-      "isFav": true
+      "isFav": false
     },
     {
       "title": "hello world",
